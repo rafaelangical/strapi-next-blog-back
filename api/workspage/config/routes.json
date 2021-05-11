@@ -1,0 +1,28 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/workspage",
+      "handler": "workspage.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/workspage",
+      "handler": "workspage.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/workspage",
+      "handler": "workspage.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "kind": "singleType",
+  "collectionName": "workspages",
+  "info": {
+    "name": "workspage",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "seo": {
+      "type": "component",
+      "repeatable": false,
+      "component": "shared.seo",
+      "required": false
+    },
+    "hero": {
+      "type": "component",
+      "repeatable": false,
+      "component": "sections.hero",
+      "required": true
+    }
+  }
+}
